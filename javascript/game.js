@@ -31,6 +31,9 @@ let count = 0
             goalcount1 = goalcount1 + 1
             teamoneHit.innerHTML = goalcount1
         }
+
+        var y = new Audio("./assets/sound/Swoosh_3.mp3")
+        y.play(); 
     })
 
     let teamtwoShoot = document.querySelector("#teamtwo-shoot");
@@ -50,4 +53,9 @@ let count = 0
             goalcount2 = goalcount2 + 1;
             teamtwoHit.innerHTML = goalcount2
         }
+ 
+        var y = new Audio("./assets/sound/Swoosh_3.mp3")
+        y.play(); 
+       
+
     })
